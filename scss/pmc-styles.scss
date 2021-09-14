@@ -1,0 +1,543 @@
+$color-principal: #D71136;
+$color-secundario: #263E9A;
+$full-width: 100%;
+$full-height: 100%;
+
+
+// ESTILOS NAV
+.pmc-nav {
+	border-bottom: 0.4em $color-secundario solid;
+    .div-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        a {
+            margin-top: 5px;
+        }
+        .div-logo__container {
+            height: 4.65em;
+            width: 5.3em;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-content: space-between;
+            .sub-container__right {
+                height: $full-height;
+                width: ($full-width)-50;
+                display: flex;
+                flex-flow: wrap;
+                .div-logo__uno {
+                    height: 31.53%;
+                    width: 93.28%;
+                    background-color: $color-principal;
+                }
+                .div-logo__dos {
+                    height: 59.68%;
+                    width: 93.28%;
+                    background-color: $color-principal;
+                    align-self: flex-end;
+                }
+            }
+            .sub-container__left {
+                height: $full-height;
+                width: ($full-width)-50;
+                display: flex;
+                flex-flow: wrap;
+                justify-content: flex-end;
+                .div-logo__tres {
+                    height: 52.92%;
+                    width: 92.88%;
+                    background-color: $color-principal;
+                }
+                .div-logo__cuatro {
+                    height: 38.51%;
+                    width: 92.88%;
+                    background-color: $color-principal;
+                    align-self: flex-end;
+                }
+            }
+        }
+        @for $i from 1 through 3 {
+            .div-logo__text--p#{$i} {
+                font-weight: 200 * $i;
+            }
+        }
+        .div-logo__text {
+            font-family: 'Poppins', sans-serif;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            .div-logo__text--uno {
+                height: 2.5em;
+                flex-flow: wrap;
+                .div-logo__text--p3 {
+                    font-size: 3em;
+                    line-height: 1em;
+                    justify-self: flex-start;
+                }
+            }
+            .div-logo__text--dos {
+                display: flex;
+                flex-direction: row;
+                height: 2.8em;
+                justify-content: space-between;
+                .div-logo__text--p1 {
+                    font-size: 1.9em;
+                }
+                .div-logo__text--p2 {
+                    font-size: 0.8em;
+                    line-height: 1.1em;
+                    color: #6C6D72;
+                    align-self: center;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+    .div-menu {
+        justify-content: flex-end;
+        .li-principal {
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+    }
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+// ESTILOS INDEX
+.pmc-index__main {
+    @for $i from 1 through 3 {
+        h#{$i} {
+            font-size: 2.5em/ $i +1.5;
+            margin-bottom: 20px/ $i +10;
+        }
+    }
+    .main-container__header {
+        width: $full-width;
+        padding: 40px;
+        text-align: center;
+        
+        .main-title {
+            background-position-x: 53%;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            .main-title__secondary {
+                color: rgb(63, 63, 63);
+                font-weight: 200;
+            }
+            img {
+                width: 100px;
+            }
+        }
+    }
+    .main-container__section1 {
+        background-image: url(../assets/backgrounds/background-pmc1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+    }
+    .main-container__section2 {
+        display: flex;
+        box-shadow: 0 0 30px 5px #7e7e7e;
+        section {
+            display: flex;
+            article {
+                width: 50vw;
+                padding: 40px;
+            }
+        }
+    }
+    .main-container__section3 {
+        background-image: url(../assets/backgrounds/background-pmc2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .main-container__section4 {
+        display: flex;
+        box-shadow: 0 0 30px 5px #7e7e7e;
+    }
+    .main-container__content {
+        height: 65%;
+        width: 45%;
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 0 0 30px 5px #5a5959;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 40px;
+    }
+}
+
+// ESTILOS FOOTER
+.pmc-footer {
+	border-top: 0.3em #333 solid;
+	background: #dedede;
+    display: flex;
+	justify-content: space-between;
+    address {
+        margin-left: 20px;
+        margin-top: 10px;
+        b{
+            font-size: 1.8em;
+        }
+    }
+    .footer__redes {
+        height: auto;
+        align-self: center;
+        .footer__redes--a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 20px;
+            &:hover {
+                color: #333;
+            }
+        }
+        .footer__redes--logo {
+            font-size: 50px;
+        }
+    }
+}
+
+// ESTILOS MARIANA-CORTI-PROPIEDADES.HTML 
+
+.pmc-propiedades__main {
+    .propiedades-header {
+        text-align: center;
+        h2 {
+            padding: 20px;
+        }
+    }
+    .propiedades-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        .propiedades-aside {
+            min-width: 300px;
+            flex-basis: 500px;
+            display: flex;
+            flex-direction: column;
+            .propiedades-aside__content {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                border-radius: 16px;
+                box-shadow: #868686 0 0 15px 5px;
+                margin: 20px 20px 40px 30px;
+                max-height: 75vh;
+                flex-grow: 1;
+                position: sticky;
+                top: 20px;
+                .aside__imagen {
+                    width: 100px;
+                    align-self: center;
+                }
+                h3 {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                p {
+                    align-self: center;
+                }
+            }
+            .return-button {
+                padding: 8px 12px;
+                border-radius: 50px;
+                border: none;
+                box-shadow: 0 0 20px 5px #979797;
+            }
+            .return-button--a {
+                position: sticky;
+                top: 85vh;
+                align-self: center;
+                margin-bottom: 20px;
+            }
+        }
+        .propiedades-list {
+            display: flex;
+            flex-flow: column;
+            padding: 20px;
+            min-width: 650px;
+            align-items: center;
+            .propiedades-list__content {
+                display: flex;
+                border-radius: 16px;
+                overflow: hidden;
+                box-shadow: #868686 0 0 15px 5px;
+                margin-bottom: 40px;
+                height: auto;
+                max-width: 1000px;
+                .carousel {
+                    width: 300px;
+                    display: flex;
+                    .carousel-item {
+                        flex-grow: 1;
+                    }
+                    img {
+                        height: 350px;
+                        width: 300px !important;
+                        object-fit: cover;
+                    }
+                }
+                .propiedades-list__info {
+                    display: flex;
+                    flex-flow: column wrap;
+                    padding: 10px;
+                    flex-grow: 1;
+                    .propiedades-list__header {
+                        display: flex;
+                        flex-grow: 1;
+                        border-bottom: solid 1px #dedede;
+                        .prop-value {
+                            flex-grow: 1;
+                            border-right: solid 1px #dedede;
+                            margin-left: 20px;
+                            padding: 5px 0 5px 0;
+                            .value-primario {
+                                font-weight: 600;
+                                font-size: 20px;
+                            }
+                            .value-secundario {
+                                font-size: 16px;
+                                color: rgb(134, 134, 134);
+                            }
+                        }
+                        .prop-address {
+                            flex-grow: 1;
+                            margin-left: 20px;
+                            padding: 5px 0 5px 0;
+                            .address-primario {
+                                font-weight: 600;
+                                font-size: 20px;
+                            }
+                            .address-secundario {
+                                font-size: 16px;
+                                color: rgb(134, 134, 134);
+                            }
+                        }
+                    }
+                    .propiedades-list__main {
+                        flex-grow: 3;
+                        display: flex;
+                        .fa-ul {
+                            align-self: center;
+                            flex-grow: 2;
+                            min-width: 120px;
+                            padding-top: 20px;
+                       
+                        }
+                        li {
+                            font-size: 13px;
+                            margin-right: 25px;
+                            margin-bottom: 5px;
+                        }
+                        .propiedades-list__main--description {
+                            flex-grow: 2;
+                            flex-shrink: 2;
+                            padding: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            align-self: center;
+                            h4 {
+                                font-size: 18px;
+                            }
+                            p {
+                                font-size: 14px;
+                                text-align: justify;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .propiedades-list__footer {
+                        flex-grow: 1;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        .prop__button {
+                            color: #fff;
+                            background-color: $color-principal;
+                            padding: 2px 15px;
+                            border-radius: 50px;
+                            font-weight: 600;
+                            border: transparent 2px solid;
+                            transition: border, background-color .4s;
+                            &:hover {
+                                box-shadow: 0 0 20px 5px #979797;
+                                background-color: #fff;
+                                color: rgb(53, 53, 53);
+                                border: $color-principal 2px solid;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ESTILOS MARIANA-CORTI-CONTACTO.HTML
+.pmc-contacto__main {
+    .contacto__main--container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: ($full-width)-20;
+        background: #fff;
+        margin: auto;
+        .contacto__header {
+            text-align: center;
+            padding-top: 40px;
+            .contacto__header--title {
+                font-size: 3em;
+            }
+            .contacto__header--text {
+                font-size: 1.2em;
+                padding: 30px 0 30px 0;
+            }
+        }
+    }
+    .form {
+        align-self: center;
+        width: $full-width;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        textarea {
+            resize: none;
+            min-height: 100px;
+        }
+        .form__section{
+            margin: 5px 0px;
+        }
+        .form__input {
+            width: ($full-width)-15;
+            padding: 7px;
+            margin: 9px 0px;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid $color-secundario;
+            &:focus,&:hover {
+                background: linear-gradient(to bottom, transparent, #ccc);
+                &::placeholder {
+                    color: rgb(49, 49, 49);
+                }
+            }
+        }
+        .form__button {
+            color: #fff;
+            background-color: $color-principal;
+            padding: 5px 20px;
+            margin: 20px 20px 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: transparent 2px solid;
+            transition: border, background-color .4s;
+            &:hover {
+                box-shadow: 0 0 20px 5px #dedede;
+                background-color: #fff;
+                color: rgb(53, 53, 53);
+                border: $color-principal 2px solid;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width:414px) {
+    .pmc-nav {
+        .div-logo {
+            margin-left: 10px;
+            .div-logo__container {
+                height: 2.79em;
+                width: 3.18em;
+            }
+            .div-logo__text {
+                margin-left: 10px;
+                margin-top: 5px;
+                .div-logo__text--uno {
+                    height: auto;
+                    .div-logo__text--p3 {
+                        font-size: 1.2em;
+                        justify-self: flex-start;
+                    }
+                }
+                .div-logo__text--dos {
+                    height: auto;
+                    .div-logo__text--p1 {
+                        font-size: 0.76em;
+                    }
+                    .div-logo__text--p2 {
+                        font-size: 0.38em;
+                        align-self: center;
+                        padding-top: 0;
+                        margin-left: 2px;
+                    }
+                }
+            }
+        }
+        .navbar-toggler {
+            font-size: .8rem;
+            margin-right: 8px;
+        }
+    }
+    .pmc-index__main {
+        @for $i from 1 through 3 {
+            h#{$i} {
+            font-size: 1em/ $i +1;
+            margin-bottom: 5px/ $i +10;
+            }
+        }
+        .main-container__header, .main-container__section1, .main-container__section2, .main-container__section3, .main-container__section4 {
+            height: auto;
+            padding: 0;
+        }
+        .main-container__section2 {
+            margin: auto;
+            section {
+                article {
+                    padding: 0;
+                    width: 45vw;
+                    p {
+                        padding-right: 0;
+                        font-size: .6em;
+                    }
+                }
+            }
+        }
+        .main-container__content {
+            height: auto;
+            width: 80%;
+            margin: 30px auto;
+            padding: 10px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        p {
+            font-size: .8em;
+            text-align: justify;
+            padding: 0 10px;
+        }
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .pmc-propiedades__main {
+        .propiedades-container {
+            .propiedades-list {
+                .propiedades-list__content {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+    

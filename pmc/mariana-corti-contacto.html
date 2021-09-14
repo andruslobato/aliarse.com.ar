@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="keywords" content="Mariana Corti, propiedades, bienes raíces, venta, alquiler, compra de propiedades, alquiler de departamentos, casa, departamento, martillero público, Buenos Aires">
+    <meta name="description" content="Mariana Corti Propiedades, busca tu nuevo hogar o publica con nosotros tu propiedad para encontrarle un nuevo propietario o inquilino">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/logo-pmc.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Corti | Contacto</title>
+</head>
+<body>
+    <nav class="pmc-nav navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="div-logo">
+                <a href="./mariana-corti-index.html">
+                    <div class="div-logo__container">
+                        <div class="sub-container__right">
+                            <div class="div-logo__uno"></div>
+                            <div class="div-logo__dos"></div>
+                        </div>
+                        <div class="sub-container__left">
+                            <div class="div-logo__tres"></div>
+                            <div class="div-logo__cuatro"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="div-logo__text">
+                    <div class="div-logo__text--uno">
+                        <span class="div-logo__text--p3">Mariana Corti</span>
+                    </div>
+                    <div class="div-logo__text--dos">
+                        <span class="div-logo__text--p1">propiedades</span>
+                        <span class="div-logo__text--p2">CUCICBA N° 6206<br>CMCPSI N° 4114 | 4152</span>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse div-menu" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navbar">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle li-principal" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ALiarse
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="../pal/galeria.html">Galería</a></li>
+                            <li><a class="dropdown-item" href="../pal/contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle li-principal" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mariana Corti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./mariana-corti-index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./mariana-corti-propiedades.html">Propiedades</a></li>
+                            <li><a class="dropdown-item" href="./mariana-corti-contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="pmc-contacto__main">
+        <div class="contacto__main--container">
+            <header class="contacto__header">
+                <h2 class="contacto__header--title">Contactate con nosotros</h2>
+                <div class="contacto-header--text">
+                    <p>¿Estás buscando alquilar, vender o tasar tu propiedad?</p>
+                    <span>No dudes en contactarte con nostros para poder encontrarle alguien a tu hogar.</span>
+                </div>
+            </header>
+            <form class="form" action="" method="POST">
+                <div class="form__section">
+                    <label for="contacto-nombre-pal"></label>
+                    <input class="form__input" id="contacto-nombre-pal" type="text" placeholder="Nombre">
+                </div>
+                <div class="form__section">
+                    <label for="contacto-apellido-pal"></label>
+                    <input class="form__input" id="contacto-apellido-pal" type="text" placeholder="Apellido">
+                </div>
+                <div class="form__section">
+                    <label for="contacto-tel-pal"></label>
+                    <input class="form__input" id="contacto-tel-pal" type="tel" placeholder="Teléfono/Celular">
+                </div>
+                <div class="form__section">
+                    <label for="contacto-email-pal"></label>
+                    <input class="form__input" id="contacto-email-pal" type="email" placeholder="Mail">
+                </div>
+                <div class="form__section">
+                    <textarea class="form__input" placeholder="¿En qué podemos ayudarlo?"></textarea>
+                </div>
+                <div class="form__section">
+                    <label for="contacto-noticias-pal">¿Desea recibir noticias sobre Mariana Corti Propiedades?</label>
+                    <input id="contacto-noticias-pal" type="checkbox">
+                </div>
+                <div class="form__section">
+                    <input class="form__button" type="reset" value="Borrar todo">
+                    <input class="form__button" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="pmc-footer">
+        <div>
+            <address>
+                <h3>Mariana Corti <small class="text-muted">Martillera Pública</small></h3>
+                Telefono:<br>
+                Mail: mariana-corti@gmail.com<br>
+                <a href="./mariana-corti-contacto.html">Contacto</a>
+            </address>
+        </div>
+        <div class="footer__redes">
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-facebook-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-instagram-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-linkedin footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-twitter-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-whatsapp-square footer__redes--logo"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c5e62cf6d0.js" crossorigin="anonymous"></script>
+</body>
+</html>

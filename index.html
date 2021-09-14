@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="description" content="Somos un estudio de arquitectura, diseño e ingeniería fundado por el Arq. Adrián Cesar Lobato. Nos apoyamos en ideas modernas e innovadoras tanto en diseño, sustentabilidad y medio ambiente.">
+    <meta name="keywords" content="ALiarse, Adrian Lobato, arquitectura, diseño, ingeniería, constructora, UBA, Arq Adrian Cesar Lobato">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/logo-pal.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALiarse | Inicio</title>
+</head>
+<body>
+    <nav class="pal-nav navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="div-logo">
+                <div class="div-logo__texto">
+                    <a class="div-logo__texto--a" href="./index.html"><p class="div-logo__texto--p">AL</p>iarse</a>
+                </div>
+                <div class="div-logo__texto__secundario">
+                    <p class="div-logo__texto__secundario--p">ingenieria<br>arquitectura<br>servicios</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse div-menu" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navbar">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle li-principal" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ALiarse
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./pal/galeria.html">Galería</a></li>
+                            <li><a class="dropdown-item" href="./pal/contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle li-principal" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mariana Corti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./pmc/mariana-corti-index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./pmc/mariana-corti-propiedades.html">Propiedades</a></li>
+                            <li><a class="dropdown-item" href="./pmc/mariana-corti-contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="pal-index__main">
+    <div class="container-fluid carousel-container">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/foto1.jpg" class="d-block w-100" alt="imagen de carousel inicio">
+                    <div class="carousel-caption d-none d-md-block carousel__text--background">
+                        <h1><small class="title-primero">AL</small>iarse</h1>
+                        <h5>¿Quiénes somos?</h5>
+                        <p>Somos un estudio de arquitectura, diseño e ingeniería fundado por el Arq. Adrián Cesar Lobato.<br> 
+                        Nos apoyamos en ideas modernas e innovadoras tanto en diseño, sustentabilidad y medio ambiente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/foto2.jpg" class="d-block w-100" alt="imagen de carousel inicio">
+                    <div class="carousel-caption d-none d-md-block carousel__text--background">
+                        <h5>Visita nuestra galería</h5>
+                        <p>Te invitamos a que veas nuestra galeria de imágenes de las obras y proyectos en los que trabajamos.</p><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/foto3.jpg" class="d-block w-100" alt="imagen de carousel inicio">
+                    <div class="carousel-caption d-none d-md-block carousel__text--background">
+                        <h5>Contactanos</h5>
+                        <p>¿Estás pensando en edificiar, remodelar o buscas un diseño para tu casa?<br>Esperamos tu mensaje.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    </main>
+    <footer class="pal-footer">
+        <div>
+            <address>
+                <h3>Adrián Cesar Lobato <small class="text-muted">Arquitecto</small></h3>
+                Telefono: (11) 4163-5444<br>
+                Mail: info@aliarse.com.ar<br>
+                <a href="./pal/contacto.html">Contacto</a>
+            </address>
+        </div>
+        <div class="footer__redes">
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-facebook-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-instagram-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-linkedin footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-twitter-square footer__redes--logo"></i>
+            </a>
+            <a class="footer__redes--a" href="#">
+                <i class="fab fa-whatsapp-square footer__redes--logo"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c5e62cf6d0.js" crossorigin="anonymous"></script>
+</body>
+</html>
