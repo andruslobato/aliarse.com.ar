@@ -3,6 +3,22 @@ $color-secundario: #263E9A;
 $full-width: 100%;
 $full-height: 100%;
 
+@mixin pmc-button {
+    color: #fff;
+        background-color: $color-principal;
+        padding: 5px 20px;
+        margin: 20px 20px 10px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+        border: transparent 2px solid;
+        transition: border, background-color .4s;
+            &:hover {
+                box-shadow: 0 0 20px 5px #dedede;
+                background-color: #fff;
+                color: rgb(53, 53, 53);
+                border: $color-principal 2px solid;
+            }
+}
 
 // ESTILOS NAV
 .pmc-nav {
@@ -140,6 +156,9 @@ $full-height: 100%;
         background-attachment: fixed;
         display: flex;
         align-items: center;
+        .index__button {
+            @include pmc-button;
+        }
     }
     .main-container__section2 {
         display: flex;
@@ -249,10 +268,7 @@ $full-height: 100%;
                 }
             }
             .return-button {
-                padding: 8px 12px;
-                border-radius: 50px;
-                border: none;
-                box-shadow: 0 0 20px 5px #979797;
+                @include pmc-button;
             }
             .return-button--a {
                 position: sticky;
@@ -362,19 +378,7 @@ $full-height: 100%;
                         justify-content: center;
                         align-content: center;
                         .prop__button {
-                            color: #fff;
-                            background-color: $color-principal;
-                            padding: 2px 15px;
-                            border-radius: 50px;
-                            font-weight: 600;
-                            border: transparent 2px solid;
-                            transition: border, background-color .4s;
-                            &:hover {
-                                box-shadow: 0 0 20px 5px #979797;
-                                background-color: #fff;
-                                color: rgb(53, 53, 53);
-                                border: $color-principal 2px solid;
-                            }
+                            @include pmc-button;
                         }
                     }
                 }
@@ -433,20 +437,7 @@ $full-height: 100%;
             }
         }
         .form__button {
-            color: #fff;
-            background-color: $color-principal;
-            padding: 5px 20px;
-            margin: 20px 20px 10px 20px;
-            border-radius: 50px;
-            font-weight: 600;
-            border: transparent 2px solid;
-            transition: border, background-color .4s;
-            &:hover {
-                box-shadow: 0 0 20px 5px #dedede;
-                background-color: #fff;
-                color: rgb(53, 53, 53);
-                border: $color-principal 2px solid;
-            }
+            @include pmc-button;
         }
     }
 }

@@ -351,6 +351,20 @@ body::-webkit-scrollbar-thumb {
   background-attachment: fixed;
   display: flex;
   align-items: center; }
+  .pmc-index__main .main-container__section1 .index__button {
+    color: #fff;
+    background-color: #D71136;
+    padding: 5px 20px;
+    margin: 20px 20px 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    border: transparent 2px solid;
+    transition: border, background-color .4s; }
+    .pmc-index__main .main-container__section1 .index__button:hover {
+      box-shadow: 0 0 20px 5px #dedede;
+      background-color: #fff;
+      color: #353535;
+      border: #D71136 2px solid; }
 
 .pmc-index__main .main-container__section2 {
   display: flex;
@@ -440,10 +454,19 @@ body::-webkit-scrollbar-thumb {
       .pmc-propiedades__main .propiedades-container .propiedades-aside .propiedades-aside__content p {
         align-self: center; }
     .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button {
-      padding: 8px 12px;
+      color: #fff;
+      background-color: #D71136;
+      padding: 5px 20px;
+      margin: 20px 20px 10px 20px;
       border-radius: 50px;
-      border: none;
-      box-shadow: 0 0 20px 5px #979797; }
+      font-weight: 600;
+      border: transparent 2px solid;
+      transition: border, background-color .4s; }
+      .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button:hover {
+        box-shadow: 0 0 20px 5px #dedede;
+        background-color: #fff;
+        color: #353535;
+        border: #D71136 2px solid; }
     .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button--a {
       position: sticky;
       top: 85vh;
@@ -535,13 +558,14 @@ body::-webkit-scrollbar-thumb {
           .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .propiedades-list__info .propiedades-list__footer .prop__button {
             color: #fff;
             background-color: #D71136;
-            padding: 2px 15px;
+            padding: 5px 20px;
+            margin: 20px 20px 10px 20px;
             border-radius: 50px;
             font-weight: 600;
             border: transparent 2px solid;
             transition: border, background-color .4s; }
             .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .propiedades-list__info .propiedades-list__footer .prop__button:hover {
-              box-shadow: 0 0 20px 5px #979797;
+              box-shadow: 0 0 20px 5px #dedede;
               background-color: #fff;
               color: #353535;
               border: #D71136 2px solid; }
