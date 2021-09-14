@@ -490,9 +490,9 @@ body::-webkit-scrollbar-thumb {
         width: 300px;
         display: flex; }
         .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .carousel .carousel-item {
-          flex-grow: 1; }
+          flex-grow: 1;
+          height: 100%; }
         .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .carousel img {
-          height: 350px;
           width: 300px !important;
           object-fit: cover; }
       .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .propiedades-list__info {
