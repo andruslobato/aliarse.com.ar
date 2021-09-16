@@ -156,9 +156,6 @@ $full-height: 100%;
         background-attachment: fixed;
         display: flex;
         align-items: center;
-        .index__button {
-            @include pmc-button;
-        }
     }
     .main-container__section2 {
         display: flex;
@@ -179,10 +176,12 @@ $full-height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        text-align: center;
     }
     .main-container__section4 {
         display: flex;
         box-shadow: 0 0 30px 5px #7e7e7e;
+        
     }
     .main-container__content {
         height: 65%;
@@ -195,6 +194,9 @@ $full-height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .index__button {
+        @include pmc-button;
     }
 }
 
