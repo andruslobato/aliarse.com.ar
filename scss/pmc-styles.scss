@@ -166,7 +166,7 @@ $full-height: 100%;
         section {
             display: flex;
             article {
-                width: 50vw;
+                flex-grow: 1;
                 padding: 40px;
             }
         }
@@ -192,6 +192,9 @@ $full-height: 100%;
         box-shadow: 0 0 30px 5px #5a5959;
         background-color: rgba(255, 255, 255, 0.8);
         padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
