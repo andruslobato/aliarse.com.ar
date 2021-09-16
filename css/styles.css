@@ -351,20 +351,6 @@ body::-webkit-scrollbar-thumb {
   background-attachment: fixed;
   display: flex;
   align-items: center; }
-  .pmc-index__main .main-container__section1 .index__button {
-    color: #fff;
-    background-color: #D71136;
-    padding: 5px 20px;
-    margin: 20px 20px 10px 20px;
-    border-radius: 50px;
-    font-weight: 600;
-    border: transparent 2px solid;
-    transition: border, background-color .4s; }
-    .pmc-index__main .main-container__section1 .index__button:hover {
-      box-shadow: 0 0 20px 5px #dedede;
-      background-color: #fff;
-      color: #353535;
-      border: #D71136 2px solid; }
 
 .pmc-index__main .main-container__section2 {
   display: flex;
@@ -382,7 +368,8 @@ body::-webkit-scrollbar-thumb {
   background-attachment: fixed;
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  text-align: center; }
 
 .pmc-index__main .main-container__section4 {
   display: flex;
@@ -399,6 +386,21 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.pmc-index__main .index__button {
+  color: #fff;
+  background-color: #D71136;
+  padding: 5px 20px;
+  margin: 20px 20px 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: transparent 2px solid;
+  transition: border, background-color .4s; }
+  .pmc-index__main .index__button:hover {
+    box-shadow: 0 0 20px 5px #dedede;
+    background-color: #fff;
+    color: #353535;
+    border: #D71136 2px solid; }
 
 .pmc-footer {
   border-top: 0.3em #333 solid;
