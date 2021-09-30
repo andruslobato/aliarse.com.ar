@@ -13,6 +13,23 @@ body::-webkit-scrollbar-thumb {
   body::-webkit-scrollbar-thumb:active {
     background-color: #777; }
 
+.pal-button {
+  color: #fff;
+  background-color: #E25E10;
+  border: none;
+  padding: 5px 20px;
+  margin: 20px 20px 10px 20px;
+  border-radius: 50px;
+  position: relative;
+  font-weight: 600;
+  border: transparent 2px solid;
+  transition: border, background-color .4s; }
+  .pal-button:hover {
+    box-shadow: 0 0 20px 5px #dedede;
+    background-color: #fff;
+    color: #353535;
+    border: #E25E10 2px solid; }
+
 .pal-nav {
   border-bottom: 0.4em #E25E10 solid;
   background: linear-gradient(-90deg, #e6d7c0 0%, #ffbd66 50%, #ff6a00 100%); }
@@ -135,22 +152,6 @@ body::-webkit-scrollbar-thumb {
         background: linear-gradient(to bottom, transparent, #ccc); }
         .pal-contacto__main .form .form__input:focus::placeholder, .pal-contacto__main .form .form__input:hover::placeholder {
           color: #313131; }
-    .pal-contacto__main .form .form__button {
-      color: #fff;
-      background-color: #E25E10;
-      border: none;
-      padding: 5px 20px;
-      margin: 20px 20px 10px 20px;
-      border-radius: 50px;
-      position: relative;
-      font-weight: 600;
-      border: transparent 2px solid;
-      transition: border, background-color .4s; }
-      .pal-contacto__main .form .form__button:hover {
-        box-shadow: 0 0 20px 5px #dedede;
-        background-color: #fff;
-        color: #353535;
-        border: #E25E10 2px solid; }
 
 .pal-galeria__main .galeria__header {
   text-align: center;
@@ -233,6 +234,21 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (min-width: 1024px) {
   .pal-index__main .carousel-container img {
     height: 90vh; } }
+
+.pmc-button {
+  color: #fff;
+  background-color: #D71136;
+  padding: 5px 20px;
+  margin: 20px 20px 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: transparent 2px solid;
+  transition: border, background-color .4s; }
+  .pmc-button:hover {
+    box-shadow: 0 0 20px 5px #dedede;
+    background-color: #fff;
+    color: #353535;
+    border: #D71136 2px solid; }
 
 .pmc-nav {
   border-bottom: 0.4em #263E9A solid; }
@@ -387,21 +403,6 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   align-items: center; }
 
-.pmc-index__main .index__button {
-  color: #fff;
-  background-color: #D71136;
-  padding: 5px 20px;
-  margin: 20px 20px 10px 20px;
-  border-radius: 50px;
-  font-weight: 600;
-  border: transparent 2px solid;
-  transition: border, background-color .4s; }
-  .pmc-index__main .index__button:hover {
-    box-shadow: 0 0 20px 5px #dedede;
-    background-color: #fff;
-    color: #353535;
-    border: #D71136 2px solid; }
-
 .pmc-footer {
   border-top: 0.3em #333 solid;
   background: #dedede;
@@ -458,20 +459,6 @@ body::-webkit-scrollbar-thumb {
         margin-top: 10px; }
       .pmc-propiedades__main .propiedades-container .propiedades-aside .propiedades-aside__content p {
         align-self: center; }
-    .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button {
-      color: #fff;
-      background-color: #D71136;
-      padding: 5px 20px;
-      margin: 20px 20px 10px 20px;
-      border-radius: 50px;
-      font-weight: 600;
-      border: transparent 2px solid;
-      transition: border, background-color .4s; }
-      .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button:hover {
-        box-shadow: 0 0 20px 5px #dedede;
-        background-color: #fff;
-        color: #353535;
-        border: #D71136 2px solid; }
     .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button--a {
       position: sticky;
       top: 85vh;
@@ -562,20 +549,6 @@ body::-webkit-scrollbar-thumb {
           display: flex;
           justify-content: center;
           align-content: center; }
-          .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .propiedades-list__info .propiedades-list__footer .prop__button {
-            color: #fff;
-            background-color: #D71136;
-            padding: 5px 20px;
-            margin: 20px 20px 10px 20px;
-            border-radius: 50px;
-            font-weight: 600;
-            border: transparent 2px solid;
-            transition: border, background-color .4s; }
-            .pmc-propiedades__main .propiedades-container .propiedades-list .propiedades-list__content .propiedades-list__info .propiedades-list__footer .prop__button:hover {
-              box-shadow: 0 0 20px 5px #dedede;
-              background-color: #fff;
-              color: #353535;
-              border: #D71136 2px solid; }
 
 .pmc-contacto__main .contacto__main--container {
   display: flex;
@@ -616,20 +589,6 @@ body::-webkit-scrollbar-thumb {
       background: linear-gradient(to bottom, transparent, #ccc); }
       .pmc-contacto__main .form .form__input:focus::placeholder, .pmc-contacto__main .form .form__input:hover::placeholder {
         color: #313131; }
-  .pmc-contacto__main .form .form__button {
-    color: #fff;
-    background-color: #D71136;
-    padding: 5px 20px;
-    margin: 20px 20px 10px 20px;
-    border-radius: 50px;
-    font-weight: 600;
-    border: transparent 2px solid;
-    transition: border, background-color .4s; }
-    .pmc-contacto__main .form .form__button:hover {
-      box-shadow: 0 0 20px 5px #dedede;
-      background-color: #fff;
-      color: #353535;
-      border: #D71136 2px solid; }
 
 @media only screen and (min-width: 280px) and (max-width: 414px) {
   .pmc-nav .div-logo {

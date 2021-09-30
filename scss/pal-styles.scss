@@ -2,7 +2,7 @@ $color-principal: #E25E10;
 $full-width: 100%;
 $full-height: 100%;
 
-@mixin pal-button {
+.pal-button {
     color: #fff;
     background-color: $color-principal;
     border: none;
@@ -181,9 +181,6 @@ $full-height: 100%;
                     color: rgb(49, 49, 49);
                 }
             }
-        }
-        .form__button {
-            @include pal-button;
         }
     }
 }
