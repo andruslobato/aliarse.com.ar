@@ -257,6 +257,7 @@ $full-height: 100%;
                 flex-grow: 1;
                 position: sticky;
                 top: 20px;
+                text-align: center;
                 .aside__imagen {
                     width: 100px;
                     align-self: center;
@@ -267,6 +268,11 @@ $full-height: 100%;
                 }
                 p {
                     align-self: center;
+                    flex-grow: 1;
+                    margin-top: 10px;
+                }
+                a {
+                    flex-grow: 2;
                 }
             }
             .return-button--a {

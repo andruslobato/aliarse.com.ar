@@ -450,7 +450,8 @@ body::-webkit-scrollbar-thumb {
       max-height: 75vh;
       flex-grow: 1;
       position: sticky;
-      top: 20px; }
+      top: 20px;
+      text-align: center; }
       .pmc-propiedades__main .propiedades-container .propiedades-aside .propiedades-aside__content .aside__imagen {
         width: 100px;
         align-self: center; }
@@ -458,7 +459,11 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         margin-top: 10px; }
       .pmc-propiedades__main .propiedades-container .propiedades-aside .propiedades-aside__content p {
-        align-self: center; }
+        align-self: center;
+        flex-grow: 1;
+        margin-top: 10px; }
+      .pmc-propiedades__main .propiedades-container .propiedades-aside .propiedades-aside__content a {
+        flex-grow: 2; }
     .pmc-propiedades__main .propiedades-container .propiedades-aside .return-button--a {
       position: sticky;
       top: 85vh;
