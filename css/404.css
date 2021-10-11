@@ -1,0 +1,207 @@
+
+
+
+main {
+    width: 80%;
+    border: #000 0px solid;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: #969696 0 0 20px 5px;
+    margin-top: 50px;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.error-message {
+    text-align: center;
+}
+
+.site-map {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.site-map a {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    
+}
+
+
+.enlaces-pal {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    border-right: #969696 1px solid;
+}
+
+.enlaces-pmc {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.enlace {
+    padding: 15px;
+    text-align: center;
+}
+
+.enlace:hover {
+    box-shadow: #969696 0 0 20px 4px;
+    flex-grow: 1;
+}
+
+
+
+/* ESTILO LOGO PAL */
+
+.div-logo-pal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 20px 0px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #E25E10;
+}
+
+.div-logo__texto--a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 4.5rem;
+}
+
+.div-logo__text--a:hover {
+    color: #fff;
+}
+
+.div-logo__texto--p {
+    color: #000;
+    display: inline-block;
+    margin: 0;
+    font-size: 4.5rem;
+}
+
+.div-logo__texto__secundario {
+    padding-left: 5px;
+    display: flex;
+    align-self: center; 
+}
+
+.div-logo__texto__secundario--p {
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+}
+
+    
+    
+
+/* ESTILO LOGO PMC */
+
+
+.div-logo-pmc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+
+.div-logo-pmc a {
+    margin-top: 5px;
+}
+.div-logo__container {
+    height: 4.65em;
+    width: 5.3em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.sub-container__right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.div-logo__uno {
+    height: 31.53%;
+    width: 93.28%;
+    background-color: #D71136;
+}     
+
+.div-logo__dos {
+    height: 59.68%;
+    width: 93.28%;
+    background-color: #D71136;
+    align-self: flex-end;
+}
+.sub-container__left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;  
+}     
+.div-logo__tres {
+    height: 52.92%;
+    width: 92.88%;
+    background-color: #D71136;
+}
+.div-logo__cuatro {
+    height: 38.51%;
+    width: 92.88%;
+    background-color: #D71136;
+    align-self: flex-end;
+}   
+
+.div-logo__text {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.div-logo__text--uno {
+    height: 2.5em;
+    flex-flow: wrap;
+    
+}
+.div-logo__text--p3 {
+    font-size: 3em;
+    line-height: 1em;
+    justify-self: flex-start;
+    font-weight: 600;
+}
+.div-logo__text--dos {
+    display: flex;
+    flex-direction: row;
+    height: 2.8em;
+    justify-content: space-between;
+}
+.div-logo__text--p1 {
+    margin-top: 5px;
+    font-size: 1.9em;
+    font-weight: 200;
+}
+.div-logo__text--p2 {
+    font-size: 0.8em;
+    line-height: 1.1em;
+    color: #6C6D72;
+    align-self: center;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
