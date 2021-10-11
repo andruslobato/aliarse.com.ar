@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   font-weight: 600;
   border: transparent 2px solid;
-  transition: border, background-color .4s; }
+  transition: border, background-color 1s; }
   .pal-button:hover {
     box-shadow: 0 0 20px 5px #dedede;
     background-color: #fff;
