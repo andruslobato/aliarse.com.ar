@@ -1,6 +1,4 @@
 
-
-
 main {
     width: 80%;
     border: #000 0px solid;
@@ -20,6 +18,18 @@ main {
     text-align: center;
 }
 
+.error-message h2 {
+    font-size: 48px;
+}
+
+.error-message p {
+    font-size: 24px;
+}
+
+.imagen-error {
+    width: 300px;
+}
+
 .site-map {
     display: flex;
     padding: 20px;
@@ -30,9 +40,7 @@ main {
     text-decoration: none;
     color: #000;
     width: 100%;
-    
 }
-
 
 .enlaces-pal {
     display: flex;
@@ -59,8 +67,6 @@ main {
     flex-grow: 1;
 }
 
-
-
 /* ESTILO LOGO PAL */
 
 .div-logo-pal {
@@ -79,7 +85,7 @@ main {
     font-size: 4.5rem;
 }
 
-.div-logo__text--a:hover {
+.div-logo__texto--a:hover {
     color: #fff;
 }
 
@@ -105,22 +111,19 @@ main {
     margin: 0;
 }
 
-    
-    
-
 /* ESTILO LOGO PMC */
-
 
 .div-logo-pmc {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 20px;
-    
+    padding-top: 12px;
 }
 
 .div-logo-pmc a {
     margin-top: 5px;
+    height: 75px;
 }
 .div-logo__container {
     height: 4.65em;
